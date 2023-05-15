@@ -1,0 +1,20 @@
+.list-item{
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 2px solid lightgray;
+    background-color: white;
+}
+.list-item:active{
+    background-color: gray;
+}
+.title{
+    font-weight: bold;
+    margin-top: 0px;
+}
+.content{
+    width: 200px;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    white-space: nowrap;
+}
